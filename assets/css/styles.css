@@ -27,7 +27,7 @@
 }
 /* header */
 .head-general{
-	background: url(../img/header.jpg);
+	/*background: url(../img/header.jpg);*/
 	height:110px;
 	width: 100%;
 }
@@ -76,7 +76,7 @@
 }
 /*	menu principal */
 .main-nav{
-	background: url(../img/nav-back.jpg);
+	/*background: url(../img/nav-back.jpg);*/
 }
 /* wrap de l menu */
 .wrap-menu{
@@ -95,13 +95,13 @@
 	text-align: center;
 	text-decoration: none;
 	width: 150px;
-	border: solid thin #fbba3d;
+	border: solid thin #fff;
 }
 .main-nav ul li a:hover{
-	border:dashed thin #444;
+	border:dashed thin #fff;
 }
 .cnt-sub-menu{
-	background-color: #555;
+	/*background-color: #555;*/
 	clear:both;
 	display: block;	
 	height: 30px;
