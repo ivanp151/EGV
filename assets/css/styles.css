@@ -11,19 +11,26 @@
         font-weight: normal;
         font-style: normal;
  }
- /*
+ 
  @font-face {
-        font-family: 'Arial_Rounded_MT_Bold_IE';    
-        src: url('../fonts/Arial_Rounded_MT_Bold.eot');    
+        font-family: 'Cooper_becker_poster_black';    
+        src: url('../fonts/cooper_becker_poster_black.ttf') format('truetype');    
         font-weight: normal;
         font-style: normal;
  }
-*/
+body{background-color:#D6EAF3;}
 .berlin{font-family: 'Berlin_Sans_Fb';}
+.cooper{font-family:'Cooper_becker_poster_black';}
 .clear{clear:both; border:none; margin:none;}
-.cnts{width: 990px; margin:0 auto;}
+.cnts{width: 990px; margin:0 auto; display:block;overflow: hidden;}
 .border-litle{
 	border-radius:5px;
+}
+.border-medium{
+	border-radius:10px;
+}
+.shadow-thin{
+	box-shadow: 0px 0px 1px #eee;
 }
 /* header */
 .head-general{
@@ -88,23 +95,42 @@
 	margin:0px;
 	padding:0px;
 }
-.main-nav ul li a{
+.main-nav div ul li a{
 	color:#444;
 	float:left;
+	font-size: 1em;
 	margin: 5px 5px;
 	text-align: center;
 	text-decoration: none;
 	width: 150px;
 	border: solid thin #fff;
 }
-.main-nav ul li a:hover{
+.main-nav div ul li a:hover{
 	border:dashed thin #fff;
+	text-shadow: 0px 0px 5px #eee;
 }
 .cnt-sub-menu{
 	/*background-color: #555;*/
 	clear:both;
 	display: block;	
 	height: 30px;
+}
+.sub-nav{
+	background-color: #0790EB;
+	
+	margin:0 auto;	
+	padding:3px 10px;
+	width: 970px;
+}
+.sub-nav a{
+	color:#eee;
+	font-size: 0.8em;
+	margin-top:-3px;
+	padding:0px 10px;
+	text-decoration: none;
+}
+.sub-nav a:hover{
+	color:#fff;
 }
 /* slides de images */
 .slides{	
@@ -115,6 +141,9 @@
 	list-style: none;
 	margin:0px;
 	padding:0px;
+}
+.ul-slides li a img{
+
 }
 .news-slides{
 	background: url(../img/cnt-short.jpg);
@@ -168,7 +197,27 @@ a.point-select{
 .footer-egv{
 	background: url(../img/footer-back.jpg);
 	clear:both;
-	height: 230px;
+	height: 215px;
 	width: 100%;
+	padding-top:20px;
 
 }
+
+.foot-cnt{
+	float:left;
+	margin:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.first-foot{/*background-color: #06a; */width:330px; }
+.last-foot{/*background-color: #06a; */width:250px; }
+.first-foot h3,.last-foot h4{
+	color:white;
+	font-weight: normal;
+	margin: 0.5em 0;
+	text-transform: capitalize; 
+}
+.last-foot ul,.first-foot ul{list-style: none;	padding:0px; margin:0px;}
+.last-foot ul li a,.first-foot ul li a{text-decoration: none;color:#fff; font-size:0.8em;}
