@@ -91,7 +91,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 
 /*
@@ -357,6 +357,51 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
+/*
+|--------------------------------------------------------------------------
+| NAVEGACION DEL SISTEMA
+|--------------------------------------------------------------------------
+|	
+| enlista todos el menu de los usuarios
+|
+*/
+$config['navigation'] = array(
+					            'home' => array(
+					                'id'     => 'home',
+					                'title'  => 'Inicio',
+					                'link'   => '/'
+					            ),
+					            'we' => array(
+					                'id'     => 'we',
+					                'title'  => 'Nosotros',
+					                'link'   => '/nosotros'
+					            ),
+					            'level' => array(
+					                'id'     => 'levels',
+					                'title'  => 'Niveles',
+					                'link'   => '/nivelesEducativos'
+					            ),
+					            'actually' => array(
+					                'id'     => 'actually',
+					                'title'  => 'Actualidad',
+					                'link'   => '/actualidad'
+					            ),
+					            'students' => array(
+					                'id'     => 'students',
+					                'title'  => 'Estudiantes',
+					                'link'   => '/estudiantes'
+					            ),
+					            'teachers' => array(
+					                'id'     => 'teachers',
+					                'title'  => 'Docentes',
+					                'link'   => '/docentes'
+					            ),
+					            'photos' => array(
+					                'id'     => 'photos',
+					                'title'  => 'Fotos',
+					                'link'   => '/galeria-de-fotos'
+					            ),
+					        );
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */

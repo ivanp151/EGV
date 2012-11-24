@@ -41,6 +41,43 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+$route['prueba'] = 'Static_Pages_School';
+$route['nosotros'] = 'Static_Pages_School/weAre';
+$route['nivelesEducativos'] = 'Static_Pages_School/levelsEducatives';
 
+$route['galeria-de-fotos'] = 'Galery_Photos';
+$route['actualidad'] = 'Actually';
+$route['estudiantes'] = 'Students';
+$route['docentes'] = 'Teachers';
+
+class R{
+	public $r;
+	public function __construct(){
+		$id = 'home';
+		$this->r[$id]['pagina-inicio']=
+		'welcome';
+
+		$id = 'levels';
+		$this->r[$id]['niveles-educativos']=
+		'Niveles-Educativos';
+
+	}
+	public function getRoutes(){
+
+	}
+	public function url($id){
+		return $this->r[$id];
+	}
+}
+/*
+*	S class
+*/
+class S{
+    public static function url($file){
+        return MEDIAURL.$file.'?vs='.STATICVERSION;
+    }
+}
+
+//$route = R::makeCiRoutes($route);
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

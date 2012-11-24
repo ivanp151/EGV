@@ -17,9 +17,11 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+	public $layout = 'default';
 	public function index()
 	{
-		$this->load->view('index');
+		$data['menu'] = menu_ul('home');
+		$this->load->view('index',$data);
 	}
 }
 

@@ -13,7 +13,7 @@
 <!-- NAV : MENU-->
 <nav class="main-nav">
     <div class="cnts wrap-menu">
-        <ul>
+        <ul class="menu">
             <li><a href="#" class="item-nav berlin border-litle">Inicio</a></li>
             <li><a href="#" class="item-nav berlin border-litle">Niveles educatvos</a></li>
             <li><a href="#" class="item-nav berlin border-litle">Actividades</a></li>
