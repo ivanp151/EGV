@@ -105,20 +105,38 @@
                     <a href="#" class="a-right-post cooper">Leer más</a>
                 </div>
             </div>
+            <div class="cnt-post">
+                <?php
+                echo form_open('email/enviar');
+                    $datos = array(
+                                    'name'=>'username',
+                                    'id'=>'username',
+                                    'value'=>'johndoe',
+                                    'maxlength'=>'100',
+                                    'size'=>'50',
+                                    'style'=>'width:50%'
+                                );
+                            echo form_input($datos);
+                    echo form_close();
+                ?>
+            </div>
         </section>
         <aside class="cnt-right">
             <div class="left-news border-litle">
                 <div class="new-item">
                     <h4 class="berlin news">Primera noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
-                </div>
-                <div class="new-item">
-                    <h4 class="berlin news">Segunda noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
-                </div>
-                <div class="new-item">
-                    <h4 class="berlin news">Tercera noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
+            array(
+                                <p>Esta es la primera clificacion de todas . somos los mejores</p>
+                   </div>
+                    <div class="new-item">
+                        <h4 class="berlin news">Segunda noticia</h4>
+                        <p>Esta es la primera clificacion de todas . somos los mejores</p>
+                    </div>
+                    <div class="new-item">
+                        <h4 class="berlin news">Tercera noticia</h4>
+                    <p>Est
+                        a es la primera clificacion de todas . somos los mejores</p,
+                        );
                 </div>
                 <div class="new-item">
                     <h4 class="berlin news">Cuarta noticia</h4>

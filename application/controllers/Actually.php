@@ -6,10 +6,14 @@
 */
 class Actually extends CI_Controller {
 	public $layout = 'default';
+	public function __construct(){
+		parent::__construct();
+		$this->load->helper('form');	
+	}
 	public function index()
 	{
 		$data['menu'] = menu_ul('actually');
-		$this->load->view('actually',$data);
+		$this->load->view('actually',$data);		
 	}
 }
 

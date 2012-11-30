@@ -1,7 +1,12 @@
 <!-- SECTION SLIDES IMAGES COLEGIO -->
+<link href="<?=S::url('css/coin-slider-styles.css')?>" rel="stylesheet"></link>
 <section class="cnts slides">
-    <ul class="ul-slides">
-        <li><a href="#"><img class="border-litle" src="<?=S::url('img/slide02.jpg')?>" alt="Nueva infraestructura"/></a><li>
+    <ul id="gallery" class="ul-slides">
+        <li><a href="#"><img class="border-litle" src="<?=S::url('img/slides/slide03.jpg')?>" alt="Nueva infraestructura"/></a></li>
+        <li><a href="#"><img class="border-litle" src="<?=S::url('img/slides/slide02.jpg')?>" alt="Nueva infraestructura"/></a></li>
+        <li><a href="#"><img class="border-litle" src="<?=S::url('img/slides/slide04.jpg')?>" alt="Nueva infraestructura"/></a></li>
+        <li><a href="#"><img class="border-litle" src="<?=S::url('img/slides/slide05.jpg')?>" alt="Nueva infraestructura"/></a></li>
+        <li><a href="#"><img class="border-litle" src="<?=S::url('img/slides/slide06.jpg')?>" alt="Nueva infraestructura"/></a></li>
     </ul>
     <div class="news-slides border-litle">
         <div class="new-item">
@@ -93,4 +98,6 @@
         </ul>
     </div>
 </section>
-        
+<script type="text/javascript" src="<?=S::url('js/plugins/jquery-1.8.0.min.js')?>"></script>
+<script type="text/javascript" src="<?=S::url('js/plugins/coin-slider.min.js')?>"></script>
+<script type="text/javascript" src="<?=S::url('js/main.js')?>"></script>
