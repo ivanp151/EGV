@@ -318,6 +318,7 @@ a.point-select{
 /* footer egv */
 footer.footer-egv{
 	background-image: url(../img/footer.png);
+	background-position: -3px -3px;
 	background-color: #614831;
 	clear:both;
 	height: 215px;

@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <ul class="list-point">
+    <!--<ul class="list-point">
         <li><a href="#" class="point"></a></li>
         <li><a href="#" class="point"></a></li>
         <li><a href="#" class="point-select"></a></li>
@@ -39,6 +39,7 @@
         <li><a href="#" class="point"></a></li>
 
     </ul>
+-->
 </section>
 <!-- SECTION -->
 <section class="wrap-center">

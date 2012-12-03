@@ -44,11 +44,10 @@
            'type'   => 'text/css',
            'media'  => 'screen'
         );
-        echo link_tag($link);
-        
+        echo link_tag($link);        
         
     ?>
-    
+    <script type="text/javascript" src="<?=S::url('js/plugins/modernizr.custom.2.6.2.js')?>"></script>
 </head>
 <body>
 <!-- HEADER-->
