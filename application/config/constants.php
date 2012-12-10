@@ -37,7 +37,7 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 /* constantes definidas para el sistema */
-define('MEDIAURL',			'http://colegio.phpfogapp.com/assets/');
+define('MEDIAURL',			'http://colegio/assets/');
 define('STATICVERSION',		2);
 
 

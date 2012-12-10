@@ -9,26 +9,7 @@
         <li><a href="#"><img class="border-litle" src="<?=S::url('img/slides/slide06.jpg')?>" alt="Nueva infraestructura"/></a></li>
     </ul>
     <div class="news-slides border-litle">
-        <div class="new-item">
-            <h4 class="berlin news">Primera noticia</h4>
-            <p>Esta es la primera clificacion de todas . somos los mejores</p>
-        </div>
-        <div class="new-item">
-            <h4 class="berlin news">Segunda noticia</h4>
-            <p>Esta es la primera clificacion de todas . somos los mejores</p>
-        </div>
-        <div class="new-item">
-            <h4 class="berlin news">Tercera noticia</h4>
-            <p>Esta es la primera clificacion de todas . somos los mejores</p>
-        </div>
-        <div class="new-item">
-            <h4 class="berlin news">Cuarta noticia</h4>
-            <p>Esta es la primera clificacion de todas . somos los mejores</p>
-        </div>
-        <div class="new-item">
-            <h4 class="berlin news">Quinta noticia</h4>
-            <p>Esta es la primera clificacion de todas . somos los mejores</p>
-        </div>
+        <? include('news.php');?>
     </div>
 
     <!--<ul class="list-point">

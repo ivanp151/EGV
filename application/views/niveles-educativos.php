@@ -80,28 +80,7 @@
             </div>
         </section>
         <aside class="cnt-right">
-            <div class="left-news border-litle">
-                <div class="new-item">
-                    <h4 class="berlin news">Primera noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
-                </div>
-                <div class="new-item">
-                    <h4 class="berlin news">Segunda noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
-                </div>
-                <div class="new-item">
-                    <h4 class="berlin news">Tercera noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
-                </div>
-                <div class="new-item">
-                    <h4 class="berlin news">Cuarta noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
-                </div>
-                <div class="new-item">
-                    <h4 class="berlin news">Quinta noticia</h4>
-                    <p>Esta es la primera clificacion de todas . somos los mejores</p>
-                </div>
-            </div>
+            <? include('news.php');?>
         </aside>
     </div>     
 </div>

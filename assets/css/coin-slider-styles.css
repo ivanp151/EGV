@@ -138,4 +138,6 @@ a.cs-active {
 .cs-title { width: 545px; padding: 10px; background-color: #000000; color: #FFFFFF; }
 
 .cs-prev, 
-.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; font-family: Arial_Rounded_Mt_Bold,Arial_Rounded_Mt_Bold_Ie;text-transform: capitalize;}
+.cs-next { background-color: #06A; color: #FFFFFF; width: 30px;height:50px; font-family: Arial_Rounded_Mt_Bold,Arial_Rounded_Mt_Bold_Ie;text-transform: capitalize;}
+.cs-prev{border-radius:0px 25px 25px 0px;}
+.cs-next{border-radius:25px 0px 0px 25px;}
