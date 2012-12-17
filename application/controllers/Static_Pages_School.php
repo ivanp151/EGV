@@ -20,6 +20,13 @@ class Static_Pages_School extends CI_Controller {
 	}
 	public function levelsEducatives(){
 		$data['menu'] = menu_ul('levels');
+
+		$seoHeader = seo_headers('niveles');
+		$this->title = $seoHeader['title'];
+		$this->meta = $seoHeader['metas'];
+		$this->styles = $seoHeader['styles'];
+		$this->scripts = $seoHeader['scripts'];
+
 		$this->load->view('niveles-educativos',$data);
 	}
 	/*
@@ -27,6 +34,13 @@ class Static_Pages_School extends CI_Controller {
 	*/
 	public function weAre(){
 		$data['menu'] = menu_ul('we');
+
+		$seoHeader = seo_headers('nosotros');
+		$this->title = $seoHeader['title'];
+		$this->meta = $seoHeader['metas'];
+		$this->styles = $seoHeader['styles'];
+		$this->scripts = $seoHeader['scripts'];
+
 		$this->load->view('nosotros',$data);
 	}
 }

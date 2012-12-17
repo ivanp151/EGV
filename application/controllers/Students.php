@@ -9,6 +9,13 @@ class Students extends CI_Controller {
 	public function index()
 	{
 		$data['menu'] = menu_ul('students');
+
+		$seoHeader = seo_headers('estudiantes');
+		$this->title = $seoHeader['title'];
+		$this->meta = $seoHeader['metas'];
+		$this->styles = $seoHeader['styles'];
+		$this->scripts = $seoHeader['scripts'];
+
 		$this->load->view('galery_photos',$data);
 	}
 }

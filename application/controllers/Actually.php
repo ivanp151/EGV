@@ -13,6 +13,13 @@ class Actually extends CI_Controller {
 	public function index()
 	{
 		$data['menu'] = menu_ul('actually');
+
+		$seoHeader = seo_headers('actualidad');
+		$this->title = $seoHeader['title'];
+		$this->meta = $seoHeader['metas'];
+		$this->styles = $seoHeader['styles'];
+		$this->scripts = $seoHeader['scripts'];
+
 		$this->load->view('actually',$data);		
 	}
 }

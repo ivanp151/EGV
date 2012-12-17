@@ -9,6 +9,13 @@ class Teachers extends CI_Controller {
 	public function index()
 	{
 		$data['menu'] = menu_ul('teachers');
+
+		$seoHeader = seo_headers('docentes');
+		$this->title = $seoHeader['title'];
+		$this->meta = $seoHeader['metas'];
+		$this->styles = $seoHeader['styles'];
+		$this->scripts = $seoHeader['scripts'];
+
 		$this->load->view('galery_photos',$data);
 	}
 }

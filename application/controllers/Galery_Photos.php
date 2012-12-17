@@ -9,6 +9,13 @@ class Galery_Photos extends CI_Controller {
 	public function index()
 	{
 		$data['menu'] = menu_ul('photos');
+		//
+		$seoHeader = seo_headers('galery');
+		$this->title = $seoHeader['title'];
+		$this->meta = $seoHeader['metas'];
+		$this->styles = $seoHeader['styles'];
+		$this->scripts = $seoHeader['scripts'];
+
 		$this->load->view('galery_photos',$data);
 	}
 }

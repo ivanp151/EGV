@@ -36,9 +36,7 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-/* constantes definidas para el sistema */
-define('MEDIAURL',			'http://colegio/assets/');
-define('STATICVERSION',		2);
+
 
 
 /* End of file constants.php */

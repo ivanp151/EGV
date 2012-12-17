@@ -10,11 +10,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Colegio Enrique Gusman y Valle</title>
-    <meta name="description" content="">
+    <title>{title}</title>
+    
+    {metas}
     <meta name="viewport" content="width=device-width">
 
+    {styles}
     <!-- incluyendo los styles and shortcut icon -->
     <?
         $link = array(
@@ -117,6 +120,9 @@
         <h6>Diseño y desarrollo Reina Elizabeth Condori Cayo y Alfredo Iván Palomino calli</h6>
     </div>
 </footer>
-  
+<div class="js">
+    <script type="text/javascript" src="<?=S::url('js/plugins/jquery-1.8.0.min.js')?>"></script>
+    {scripts}
+</div>
 </body>
 </html>
